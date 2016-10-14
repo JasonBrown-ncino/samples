@@ -54,7 +54,7 @@
                {
                   "name":"Authorization",
                   "in":"header",
-                  "description":"oAuth2 bearer token granted by salesforce.com",
+                  "description":"oAuth2 bearer token granted by salesforce.com - should be in format Bearer <access_token>",
                   "required":true,
                   "type":"string"
                }
