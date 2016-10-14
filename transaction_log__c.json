@@ -32,7 +32,7 @@
    "paths":{
       "/Transaction_Log__c":{
          "post":{
-            "description":"Will create a new transaction log record",
+            "description":"Will create a new transaction log record. Setting the transactionStatus property on post causes certain UI behavior.",
             "tags":[
                "UPSERT"
             ],
