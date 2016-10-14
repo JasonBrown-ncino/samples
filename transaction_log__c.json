@@ -89,10 +89,7 @@
          "title":"SuccessResponse",
          "type":"object",
          "properties":{
-            "ids":{
-               "type":"string"
-            },
-            "tester":{
+            "id":{
                "type":"string"
             },
             "success":{
